@@ -6,9 +6,9 @@ class AppearanceOptions extends OptionsScreen {
 		add(new NumOption(
 			"Framerate",
 			"Pretty self explanatory, isn't it?",
-			30, // minimum
-			240, // maximum
-			10, // change
+			24, // minimum
+			320, // maximum
+			1, // change
 			"framerate", // save name or smth
 			__changeFPS)); // callback
 		add(new Checkbox(
@@ -17,12 +17,16 @@ class AppearanceOptions extends OptionsScreen {
 			"antialiasing"));
 		add(new Checkbox(
 			"Colored Healthbar",
-			"If unchecked, the game will use the orginal red/green health bar from the week 6 fnf game.",
+			"If unchecked, the game will use the original red/green health bar from the vanilla version of the game.",
 			"colorHealthBar"));
 		add(new Checkbox(
 			"Pixel Perfect Effect",
 			"If checked, Week 6 will have a pixel perfect effect to it enabled, aligning every pixel on the screen.",
 			"week6PixelPerfect"));
+		add(new Checkbox(
+			"Note Splashes",
+			"If checked, notes will play a splash animation when getting a \"Sick!\" hit.",
+			"splashesEnabled"));
 		add(new Checkbox(
 			"Gameplay Shaders",
 			"If unchecked, gameplay shaders (visual effects like Thorns's Chromatic Aberration) wont be loaded; this may be helpful on weak devices.",
