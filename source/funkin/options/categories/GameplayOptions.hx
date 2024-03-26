@@ -26,8 +26,15 @@ class GameplayOptions extends OptionsScreen {
 			1, // change
 			"songOffset", // save name or smth
 			__changeOffset)); // callback
+		add(new NumOption(
+			"Hit Window",
+			"I don't know, changes when you should hit the Sick! note?",
+			200, // minimum
+			300, // maximum
+			1, // change
+			"hitWindow")); // save name or smth
 		add(new Checkbox(
-			"Naughtyness",
+			"Naughtiness",
 			"If unchecked, will censor the Week 7 cutscenes.",
 			"naughtyness"));
 		add(new Checkbox(
