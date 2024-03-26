@@ -24,7 +24,7 @@ class MiscOptions extends OptionsScreen {
 		#end
 		add(new TextOption(
 			"Reset Save Data",
-			"Select this option to reset save data. This will remove all of your highscores.",
+			"Select this option to reset save data. Actually no, it doesn't work, deal with it.",
 			function() {
 				// TODO: SAVE DATA RESETTING
 		}));
