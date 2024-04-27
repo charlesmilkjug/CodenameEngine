@@ -10,7 +10,7 @@
 
 	<!-- Other Libraries -->
 	<git name="hscript-improved" url="https://github.com/FNF-CNE-Devs/hscript-improved" ref="custom-classes" />
-	<git name="flxanimate" url="https://github.com/charlesmilkjug/flxanimate" />
+	<git name="flxanimate" url="https://github.com/charlesmilkjug/flxanimate_2" />
 	<git name="hxdiscord_rpc" url="https://github.com/FNF-CNE-Devs/hxdiscord_rpc" />
 	<lib name="hxvlc" />
 
