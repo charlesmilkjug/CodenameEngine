@@ -1,4 +1,4 @@
-# Codename Engine Todo List
+# Codename Engine To-Do List
 
 ## `v1.0.0` - Initial release
 
@@ -11,20 +11,21 @@
 	- [x] Fix the strumlines bar when zooming out
 	- [x] Algorithm to make note placements faster & sorted out
 	- [x] Play here working
-	- [x] Cap zoom in & out
+	- [x] Cap zoom in & out (NOOOOOOOOOOOO)
 	- [x] Events (including Camera Movement)
 	- [x] Metadata Editing
-	- [ ] Custom Notetypes
-	- [ ] Reorderable Strumlines
+	- [x] Custom Notetypes
+	- [x] Reorderable Strumlines
 	- [ ] Step based zooming
 	- [ ] Add Undo to more actions
-	- [ ] New Chart Button
+	- [x] New Chart Button
 	- [ ] Bug fixes
 		- [ ] Zooming in causing notes to disappear
+             - [ ] Events multiplying for some reason when saving
 		- [ ] Holds disappear too early
 		- [ ] Time signature fixes
 		- [ ] BPM Changes Events
-- [ ] Character Editor
+- [ ] Character Editor (Getting reworked, one sec)
 	- [x] Animation Editing
 	- [x] Animation Deletion/Creationg
 	- [x] Character Info Editing
@@ -32,13 +33,14 @@
 	- [x] Add Undos to Actions
 	- [ ] Change Stage
 	- [ ] New Character Button
-- [ ] Port Videos to a more stable video lib
+- [x] Port Videos to a more stable video lib
 - [ ] Optimization to Editors
 - [ ] Fix Ratings Lag
 - [x] Re-export gf-christmas, gf-car and gf-tankmen with padding
 - [x] Re-add shader camera stuff
 - [x] Make update.bat use libs.xml instead of hmm.json
 - [ ] New Switch Mod menu
+- [x] Charter Waveforms
 - [x] Port shader camera stuff over to new flixel fork
 - [ ] Add note offset
 - [x] Dialogue
@@ -46,16 +48,13 @@
 - [x] Add credits
 - [ ] Verbose mode (`--verbose`)
 - [ ] Tooltips
-- [ ] Fix bugs
-
-## `v1.1.0`
-- [ ] Charter Waveforms (maybe in v1.1.0, dont wanna slow shit down)
-- [ ] Custom classes
+- [x] Custom classes
 	- [ ] Proper super overrides (FlxText_HSX doesn't allow overrides for update because of this)
 	- [ ] Custom Class extending Custom Classes
 	- [ ] Statics on Custom Classes
 	- [ ] Fix Bugs
-- [ ] Full 3D support via stages files
-- [ ] Multithread sprites and assets loading (for faster load times) ?
+- [x] Full 3D support via stages files
+- [ ] Multithread sprites and assets loading (for faster load times) ? (at that point we should add a loading screen whenever we do that.)
 - [ ] Stage Editor
 - [ ] Optimize flxanimate isOnScreen
+- [ ] Fix bugs
